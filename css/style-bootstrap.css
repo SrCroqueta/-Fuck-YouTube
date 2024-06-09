@@ -1,0 +1,9 @@
+﻿.w-10 { width: 10% !important; }
+.w-15 { width: 15% !important; }
+.w-20 { width: 20% !important; }
+
+#videoContainer {
+    margin: 0 20px 20px; /* Márgenes a izquierda, derecha y abajo */
+    padding: 20px;
+    overflow: auto;
+}
