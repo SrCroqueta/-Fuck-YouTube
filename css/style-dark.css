@@ -35,4 +35,7 @@ h1, h3 {
 #videoContainer {
     background-color: #333333;
     border: 1px solid #444444;
+    margin: 0 20px 20px; /* Márgenes a izquierda, derecha y abajo */
+    padding: 20px;
+    overflow: auto;
 }
