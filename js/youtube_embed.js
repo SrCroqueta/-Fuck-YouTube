@@ -7,7 +7,7 @@
         const iframe = `<iframe width="1280" height="800" src="${embedUrl}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
         const videoContainer = document.getElementById('videoContainer');
         videoContainer.innerHTML = iframe;
-        videoContainer.classList.add('bg-white'); // Agregar la clase bg-white al div videoContainer
+        videoContainer.classList.add('bg-black'); // Agregar la clase bg-white al div videoContainer
     } else {
         alert('Por favor, introduce una URL válida de YouTube.');
     }
